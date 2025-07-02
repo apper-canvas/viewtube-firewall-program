@@ -1,4 +1,5 @@
-import { formatDistanceToNow, format } from 'date-fns'
+import { format, formatDistanceToNow } from "date-fns";
+import React from "react";
 
 export const formatViews = (views) => {
   if (views >= 1000000) {
