@@ -58,7 +58,7 @@ export const generateThumbnailUrl = (videoId, quality = 'medium') => {
 
 export const parseVideoId = (url) => {
   // Extract video ID from various YouTube URL formats
-  const regex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\s]{11})/
+  const regex = /(?:youtube\.com\/(?:[^/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\s]{11})/
   const match = url.match(regex)
   return match ? match[1] : null
 }
