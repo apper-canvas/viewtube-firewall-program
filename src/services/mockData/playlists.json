@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "name": "Nature & Wildlife",
+    "videoIds": ["1", "6"],
+    "thumbnail": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=400&h=300&fit=crop",
+    "videoCount": 2
+  },
+  {
+    "Id": 2,
+    "name": "Tech Reviews",
+    "videoIds": ["2", "9", "12"],
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=300&fit=crop",
+    "videoCount": 3
+  },
+  {
+    "Id": 3,
+    "name": "Learning Hub",
+    "videoIds": ["3", "8"],
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=300&fit=crop",
+    "videoCount": 2
+  },
+  {
+    "Id": 4,
+    "name": "Lifestyle & Wellness",
+    "videoIds": ["7", "10", "11"],
+    "thumbnail": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop",
+    "videoCount": 3
+  },
+  {
+    "Id": 5,
+    "name": "Adventure & Travel",
+    "videoIds": ["4", "5"],
+    "thumbnail": "https://images.unsplash.com/photo-1544191696-15693072e4b5?w=400&h=300&fit=crop",
+    "videoCount": 2
+  }
+]
