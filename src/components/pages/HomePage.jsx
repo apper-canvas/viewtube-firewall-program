@@ -75,11 +75,11 @@ const HomePage = () => {
     )
   }
 
-  const filteredVideos = selectedCategory === 'all' 
+const filteredVideos = selectedCategory === 'all' 
     ? videos 
     : videos.filter(video => 
-        video.title.toLowerCase().includes(selectedCategory) ||
-        video.description.toLowerCase().includes(selectedCategory)
+        (video.title && video.title.toLowerCase().includes(selectedCategory)) ||
+        (video.description && video.description.toLowerCase().includes(selectedCategory))
       )
 
   return (
